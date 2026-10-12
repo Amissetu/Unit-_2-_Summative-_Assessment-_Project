@@ -1,3 +1,9 @@
+
+
+
+
+![Insurance charges image](Insurance_charges_image.png)
+
 # Insurance Charges Analysis
 
 This project explores how customer characteristics relate to medical
