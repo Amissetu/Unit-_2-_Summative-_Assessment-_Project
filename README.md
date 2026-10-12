@@ -59,6 +59,8 @@ decisions.
 
 ## Dashboard
 
+![Insurance dashboard screenshot](Insurance_Dashboard_Screenshot.png)
+
 The [Tableau Public dashboard](https://public.tableau.com/views/InsuranceChargesanalysisDashboardTableau/InsuranceChargesInsightsStory1?:showVizHome=no)
 includes descriptive statistics, correlation and geographic analysis,
 interactive filters, a cost calculator, and a storytelling view. Treat the
