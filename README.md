@@ -46,6 +46,16 @@ against a median-prediction baseline. All three use the same held-out test
 split and are evaluated with mean absolute error (MAE), root mean squared
 error (RMSE), and R-squared:
 
+The main approaches differ by the question they answer: **regression**
+predicts a numeric value, **classification** predicts a category, and
+**clustering** groups records without a pre-labelled target. Regression is
+appropriate here because insurance `charges` are continuous amounts. Linear
+Regression was included as a simple, interpretable benchmark for how input
+features relate to charges; the Random Forest regressor was compared because
+it can capture more complex, non-linear patterns. Classification would
+require turning charges into categories and lose the exact cost information,
+while clustering would not directly predict a charge.
+
 | Model | MAE | RMSE | R-squared |
 | --- | ---: | ---: | ---: |
 | Linear Regression | $4,177 | $5,956 | 0.81 |
@@ -72,6 +82,16 @@ includes descriptive statistics, correlation and geographic analysis,
 interactive filters, a cost calculator, and a storytelling view. Treat the
 calculator as an illustration, not a validated insurance quote or model.
 
+### Storytelling view screenshots
+
+![Age influences insurance charges](Age%20influences%20insurance%20charges.png)
+
+![BMI and insurance charges](BMI%20and%20Inurance%20charges.png)
+
+![Regional variation in insurance cost](Regionaln%20Variation%20in%20insurance%20cost.png)
+
+![Smoking is a major driver](Smoking%20is%20a%20Major%20driver.png)
+
 ## Tools
 
 - **Pandas and NumPy** for data cleaning and feature creation.
@@ -81,10 +101,24 @@ calculator as an illustration, not a validated insurance quote or model.
 - **Streamlit** is a possible option for building the proposed interactive
   estimator; a Streamlit app is not currently included in this project.
 
+## Future development
+
+If I had more time, I would develop a Streamlit-based Insurance Cost
+Estimator so clients could enter personal information and instantly receive
+an estimated healthcare insurance charge. The estimate would be for
+exploration only, not an insurance quote or underwriting decision.
+
 ## Credits and limitations
 
+- Title image: screenshot from Microsoft 365 Copilot.
 - Dataset: [Kaggle Healthcare Insurance dataset](https://www.kaggle.com/datasets/willianoliveiragibin/healthcare-insurance).
 - README format: [Code Institute Data Analysis README template](https://github.com/Code-Institute-Solutions/da-README-template.git).
 - GitHub Copilot and Microsoft 365 Copilot were used for AI assistance. The Code Institute LMS was used for learning.
 
 Confirm the dataset's licence and cite it appropriately before redistributing
+
+## Acknowledgements
+
+Thank you to the Code Institute instructors and learning community for their
+guidance and learning resources throughout this project. Emma Lamont's
+Google quick note on the project instructions was also helpful.
