@@ -75,7 +75,7 @@ decisions.
 
 ## Dashboard
 
-![Insurance dashboard screenshot](Insurance_Dashboard_Screenshot.png)
+![Tableau dashboard screenshot](<Tabeau Dashbord Screenshot.png>)
 
 The [Tableau Public dashboard](https://public.tableau.com/views/InsuranceChargesanalysisDashboardTableau/InsuranceChargesInsightsStory1?:showVizHome=no)
 includes descriptive statistics, correlation and geographic analysis,
@@ -84,13 +84,13 @@ calculator as an illustration, not a validated insurance quote or model.
 
 ### Storytelling view screenshots
 
-![Age influences insurance charges](Age%20influences%20insurance%20charges.png)
+![Age influences insurance charges](<Age influences insurance charges.png>)
 
-![BMI and insurance charges](BMI%20and%20Inurance%20charges.png)
+![BMI and insurance charges](<BMI and Inurance charges.png>)
 
-![Regional variation in insurance cost](Regionaln%20Variation%20in%20insurance%20cost.png)
+![Regional variation in insurance cost](<Regional Variation in insurance cost.png>)
 
-![Smoking is a major driver](Smoking%20is%20a%20Major%20driver.png)
+![Smoking is a major driver](<Smoking is a Major driver.png>)
 
 ## Tools
 
